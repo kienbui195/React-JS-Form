@@ -1,6 +1,7 @@
 import Register from './components/Register';
 import './App.css';
 import LoginForm from './components/Login';
+import BookManager from './pages/BookManager';
 
 function App() {
 	return (
@@ -10,6 +11,9 @@ function App() {
 
 			{/* Form login & validate*/}
 			<LoginForm />
+
+			{/* BookManager & Validate */}
+			<BookManager/>
 		</div>
 	);
 }
